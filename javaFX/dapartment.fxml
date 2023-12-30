@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="-6.0" layoutY="-37.0" prefHeight="324.0" prefWidth="650.0" style="-fx-background-color: navy;">
+         <children>
+            <Label layoutX="67.0" layoutY="59.0" prefHeight="33.0" prefWidth="96.0" text="departmen" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="452.0" layoutY="49.0" prefHeight="33.0" prefWidth="136.0" text="department code" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="67.0" layoutY="99.0" />
+            <TextField layoutX="446.0" layoutY="99.0" />
+            <Button layoutX="233.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: white;" text="Add" textFill="#091c7b">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="385.0" layoutY="234.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: white;" text="Delete" textFill="#091c7b">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="547.0" layoutY="268.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: white;" text="Next" textFill="#091c7b">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="42.0" layoutY="268.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: white;" text="Back" textFill="#091c7b">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="67.0" layoutY="146.0" prefHeight="33.0" prefWidth="96.0" text="subject" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="67.0" layoutY="179.0" />
+            <Label layoutX="459.0" layoutY="146.0" prefHeight="33.0" prefWidth="96.0" text="subject code" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="452.0" layoutY="179.0" />
+            <Button layoutX="309.0" layoutY="234.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: white;" text="search" textFill="#091c7b">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <TableView layoutY="286.0" prefHeight="226.0" prefWidth="644.0">
+         <columns>
+            <TableColumn prefWidth="126.39996033906937" text="department" />
+            <TableColumn prefWidth="120.00003051757812" text="department code" />
+            <TableColumn prefWidth="110.40003967285156" text="subjects" />
+            <TableColumn prefWidth="110.40003967285156" text="subject code" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

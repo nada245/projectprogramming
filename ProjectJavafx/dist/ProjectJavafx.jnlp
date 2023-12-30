@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjectJavafx.jnlp">
+  <information>
+    <title>ProjectJavafx</title>
+    <vendor>dell</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjectJavafx.jar" size="4147" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.48-bin.jar" size="1006959" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.48.jar" size="1006956" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="projectjavafx.ProjectJavafx"  name="ProjectJavafx" />
+  <update check="always"/>
+</jnlp>
